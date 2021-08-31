@@ -3,7 +3,7 @@ import time
 from tqdm import tqdm
 import _thread
 
-HOST = '127.0.0.1'
+HOST = '127.0.0.1' # change this to your ipv4 address
 PORT_R = 9090
 PORT_S = 8080
 
