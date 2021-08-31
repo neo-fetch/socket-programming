@@ -1,22 +1,3 @@
-# import socket
-
-
-# host = '127.0.0.1'
-# portS = 9090
-
-# client_skt = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-
-# client_skt.connect((host,portS))
-# msg=client_skt.recv(1024)
-# msg=msg.decode('utf-8')
-# print(msg)
-# while True:
-#  msg=input("Enter your message: \n")
-#  msg=msg.encode("utf-8")
-#  client_skt.sendall(msg)
-
-# For peer to peer communication uncomment the code below:
-
 import socket
 import time
 from tqdm import tqdm
