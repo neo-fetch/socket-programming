@@ -1,31 +1,3 @@
-# import socket
-
-# HOST = '127.0.0.1'
-# PORT = 9090
-
-# serv_skt = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-# serv_skt.bind((HOST, PORT))
-# serv_skt.listen(1)
-
-# print("waiting for a client...")
-# connection, address = serv_skt.accept()
-
-# welcome_message = "Welcome to " + HOST + " at " + str(PORT)
-
-# welcome_message = welcome_message.encode('utf-8')
-# connection.send(welcome_message)
-
-# print("Connection successful: connected to ", address)
-
-# while True:
-#     data = connection.recv(1024).decode('utf-8')
-#     if not data: break
-#     print("Recieved: ", data)
-#     #connection.sendall(data)
-# connection.close()
-
-# For peer to peer communication uncomment the code below:
-
 import socket
 import time
 from tqdm import tqdm
